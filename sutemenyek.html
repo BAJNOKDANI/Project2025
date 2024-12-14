@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Kávézó - Sütemények</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .dessert-card img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .dessert-card {
+            margin-bottom: 2rem;
+        }
+        .history-section {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Lucky Kávézó</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Főoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kavek.html">Kávék</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Sütemények</h1>
+        <p class="lead">Kóstold meg ínycsiklandó süteményeinket!</p>
+    </header>
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Kínálatunk</h2>
+        <div class="row">
+            <div class="col-md-4 dessert-card">
+                <img src="images/kavesbrownie_k.png" alt="Kávés Brownie" class="img-fluid">
+                <h3 class="mt-3">Kávés Brownie</h3>
+                <p>Egy gazdag, csokis brownie kávéval ízesítve.</p>
+                <p><strong>Ár:</strong> 500 Ft</p>
+            </div>
+            <div class="col-md-4 dessert-card">
+                <img src="images/kavescroissant_k.png" alt="Kávés Croissant" class="img-fluid">
+                <h3 class="mt-3">Kávés Croissant</h3>
+                <p>Friss, vajas croissant, egy csipetnyi kávéval.</p>
+                <p><strong>Ár:</strong> 600 Ft</p>
+            </div>
+            <div class="col-md-4 dessert-card">
+                <img src="images/kavesmuffin_k.png" alt="Kávés Muffin" class="img-fluid">
+                <h3 class="mt-3">Kávés Muffin</h3>
+                <p>Puha muffin, gazdag kávé ízzel.</p>
+                <p><strong>Ár:</strong> 450 Ft</p>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5 history-section">
+        <h2 class="text-center mb-4">A Sütemények Története</h2>
+        <p>A sütemények története évszázadokra nyúlik vissza. A modern sütemények többsége a francia cukrászati hagyományokból ered, és azóta különböző kultúrák alakították őket. A kávéval készült sütemények pedig egy különleges ízvilágot kínálnak a kávé imádóinak.</p>
+        <p>Mi itt a Lucky Kávézóban szeretjük ötvözni a kávé és a sütemények ízét, hogy még élvezetesebbé tegyük a kávézós élményt!</p>
+    </section>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Lucky Kávézó. Minden jog fenntartva.</p>
+            <p>
+                <a href="https://facebook.com" target="_blank" class="text-white mr-3">Facebook</a>
+                <a href="https://instagram.com" target="_blank" class="text-white">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
