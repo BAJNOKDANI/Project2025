@@ -1,24 +1,27 @@
 header.jumbotron {
     background: no-repeat center center/cover;
     background: url("../images/homebg.jpg") no-repeat center center/cover;
-    color: #ffffff;
+    border-radius: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-
+header.jumbotron h1, header.jumbotron p {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+header{
+    color: #fff !important;
+}
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1rem;
     border-radius: 8px;
 }
-
 .map-container {
     height: 400px;
     margin-bottom: 2rem;
 }
-
-
-
 .coffee-card img {
     height: 200px;
     object-fit: cover;
@@ -32,7 +35,6 @@ header.jumbotron {
     padding: 2rem;
     border-radius: 8px;
 }
-
 .dessert-card img {
     height: 200px;
     object-fit: cover;
@@ -45,4 +47,25 @@ header.jumbotron {
     background: #f9f9f9;
     padding: 2rem;
     border-radius: 8px;
+}
+.btn-custom {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.map-container {
+    height: 400px;
+    margin-bottom: 2rem;
 }
