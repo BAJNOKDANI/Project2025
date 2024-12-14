@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Kávézó</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        header.jumbotron {
+            background: url('images/homebg.jpg') no-repeat center center/cover;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .carousel-inner img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .map-container {
+            height: 400px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Lucky Kávézó</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Főoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kavek.html">Kávék</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Üdvözöljük a Lucky Kávézóban!</h1>
+        <p class="lead">A hely, ahol a kávézás élmény és a sütemények örömet hoznak.</p>
+        <a href="kavek.html" class="btn btn-custom btn-lg">Fedezd fel a kávéinkat</a>
+    </header>
+    <section class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner.jpg" alt="Kávézó Kép" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Ínycsiklandó kávék</h3>
+                        <p>Fedezze fel kínálatunkat!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/homebg.jpg" alt="Otthonos Kávézó" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Meghitt hangulat</h3>
+                        <p>Egy hely, ahol otthon érezheti magát.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Előző</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Következő</span>
+            </a>
+        </div>
+    </section>
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Nyitvatartás és Különleges Ajánlatok</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Nyitvatartás:</h3>
+                <ul>
+                    <li>Hétfő-Péntek: 7:00 - 19:00</li>
+                    <li>Szombat: 8:00 - 18:00</li>
+                    <li>Vasárnap: 9:00 - 16:00</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Különleges Ajánlat:</h3>
+                <p>Minden szerdán "Kávé és Süti" kedvezmény: 20% kedvezmény egy kávé és egy sütemény együttes vásárlása esetén!</p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="text-center mb-4">Találjon meg minket</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26445.942597059263!2d19.04023694555519!3d47.4979139521368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDI5JzUzLjAiTiAxOcKwMDInMzguMCJF!5e0!3m2!1shu!2shu!4v1694956939307" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <section class="reviews text-center py-5">
+        <div class="container">
+            <h2 class="mb-4">Vendégeink mondták</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-sm">
+                        <p>"A legjobb cappuccino, amit valaha ittam!"</p>
+                        <strong>- Ádám K.</strong>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-sm">
+                        <p>"Barátságos kiszolgálás és mennyei sütemények!"</p>
+                        <strong>- Júlia N.</strong>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-sm">
+                        <p>"Tökéletes hely egy délutáni kikapcsolódásra."</p>
+                        <strong>- Péter M.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>
+                <img src="images/email.svg" alt="Email" width="20"> lucky@example.com |
+                <img src="images/telephone.svg" alt="Telefon" width="20"> +36 30 123 4567
+            </p>
+            <p>&copy; 2024 Lucky Kávézó. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 

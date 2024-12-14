@@ -1,0 +1,48 @@
+header.jumbotron {
+    background: no-repeat center center/cover;
+    background: url("../images/homebg.jpg") no-repeat center center/cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.map-container {
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+
+
+.coffee-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.coffee-card {
+    margin-bottom: 2rem;
+}
+.history-section {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.dessert-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.dessert-card {
+    margin-bottom: 2rem;
+}
+.history-section {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+}
