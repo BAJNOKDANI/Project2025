@@ -71,3 +71,24 @@ header{
     height: 400px;
     margin-bottom: 2rem;
 }
+header.jumbotron {
+    background: url('images/homebg.jpg') no-repeat center center/cover;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.daily-special {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.daily-special img {
+    width: 50px;
+}
